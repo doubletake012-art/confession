@@ -212,3 +212,10 @@ div {
 body {
   overflow-y: scroll; /* vertical scroll sa buong page */
 }
+
+body {
+  font-family: 'Great Vibes', cursive;
+  font-size: 24px; /* optional: bigger for love letter style */
+  color: #8B0000; /* optional: dark red for romance */
+  line-height: 1.6;
+}
