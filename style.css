@@ -114,15 +114,21 @@ body {
 /* Floating hearts */
 .hearts span {
   position: absolute;
-  bottom: -50px;
+  bottom: -2300px;
   font-size: 30px;
   animation: floatUp 8s infinite;
   opacity: 0.8;
 }
 
+
 /* Random positions & delays */
 .hearts span:nth-child(1) { left: 10%; animation-delay: 0s; }
 .hearts span:nth-child(2) { left: 30%; animation-delay: 2s; }
+.hearts span:nth-child(3) { left: 50%; animation-delay: 6s; }
+.hearts span:nth-child(4) { left: 70%; animation-delay: 16s; }
+.hearts span:nth-child(5) { left: 90%; animation-delay: 36s; }
+.hearts span:nth-child(1) { left: 10%; animation-delay: 60s; }
+.hearts span:nth-child(2) { left: 30%; animation-delay: 62s; }
 .hearts span:nth-child(3) { left: 50%; animation-delay: 4s; }
 .hearts span:nth-child(4) { left: 70%; animation-delay: 1s; }
 .hearts span:nth-child(5) { left: 90%; animation-delay: 3s; }
@@ -206,3 +212,10 @@ div {
 body {
   overflow-y: scroll; /* vertical scroll sa buong page */
 }
+body {
+  font-family: Arial, sans-serif;
+}
+body {
+  font-family: sans-serif; /* o serif kung gusto mo mas classic */
+}
+
